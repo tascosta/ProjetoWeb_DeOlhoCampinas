@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>De Olho Campinas</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
+  <link href="css/navigationBar.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header>     
+    <nav class="navbar navbar-expand navbar-dark navbar-fixed-top navbar-inverse navbar-transparente">
+
+
+      <!-- botao toggle -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+        <span class="sr-only">alternar navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="index.html" class="navbar-brand">
+        <span class="img-logo">De Olho Campinas</span>
+      </a>
+
+
+
+      <!-- navbar -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#conteudo">Sobre</a></li>
+          <li><a href="listarProblemas.html">Listar Problemas</a></li>
+          <li class="divisor" role="separator"></li>
+          <li><a href="login.html">Logar</a></li>
+          <li><a href="cadastroLogin.html">Inscrever-se</a></li>
+
+        </ul>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main role="main" class="container">
+
+
+    <!-- capa -->
+    <div class="capa">
+
+      <div class="texto-capa">
+
+        <img class="img-fluid" src="imagens/logoPrincipal.png">
+
+        <div>
+          <h1>De olho Campinas</h1>
+          <a href="" class="btn btn-customizado btn-rosa btn-lg">Listar problemas</a>
+          <a href="#conteudo" class="btn btn-customizado btn-branco btn-lg"> Sobre </a>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Conteudo Sobre -->
+    <section class="sobre">
+      <div class="container">
+        <div class="row">
+          <!--Sobre-->
+          <div class="col-md-6 col-xs-12">
+            <h2 id="conteudo"> Sobre </h2>
+            <p>
+              Esse projeto De Olho Campinas tem por objetivo desenvolver um site para que os cidadãos da cidade de
+              Campinas possam relatar problemas que ocorra em qualquer ponto da cidade, desta forma notificar a
+              prefeitura para que a mesma resolva estes problemas o mais rápido possível. O cidadão só precisa se
+              cadastrar no site para poder relatar os problemas identificados, e desta forma consegue também,
+              acompanhar as soluções proposta pela prefeitura.
+
+              Exercer a cidadania é, acima de tudo, buscar uma sociedade melhor para todos, a fim de que exista mais
+              liberdade, justiça e solidariedade. Você pode ser mais cidadão. Entenda e participe ativamente da vida
+              dos problemas da sua cidade e seu povo. Exerça seus direitos, cumpra seus deveres e lute por uma cidade
+              melhor.
+
+            </p>
+          </div>
+
+          <!--frase-->
+          <div class="col-md-6 col-xs-12">
+            <h3>Denuncie os problemas,
+              ajude campinas a se tornar uma cidade melhor!</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Rodape-->
+
+  <footer class="footer">
+    <div class="container">
+      <span  class="text-muted">Copyright &copy; 2018 - Desenvolvido por Erick França & Talita Costa - Diciplina
+        Desenvolvimento Web - IFSP-Campinas.</span>
+    </div>
+  </footer>
+
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

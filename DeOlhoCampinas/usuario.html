@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Perfil Usuário</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  <link href="css/allStyles.css" rel="stylesheet">
+  <link href="css/navigationBar.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+    <div class="container-fluid">
+
+      <!-- header -->
+      <div class="navbar-header">
+
+        <!-- botao toggle -->
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse" data-target="#barra-navegacao">
+        <span class="sr-only">alternar navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="index.html" class="navbar-brand">
+        <span class="img-logo">De Olho Campinas</span>
+      </a>
+
+    </div>
+
+    <!-- navbar -->
+    <div class="collapse navbar-collapse" id="barra-navegacao">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="meusProblemas.html">Listar meus problemas cadastrados </a></li>
+        <li class="divisor" role="separator"></li>
+        <li><a href="esqueceuSenha.html">Trocar a senha</a></li>
+        <li><a href="index.html">Sair</a></li>
+    
+
+      </ul>
+    </div>
+  </div><!-- /container -->
+</nav><!-- /nav -->
+
+<div class="principal">
+  <div class="logo">
+    <span> <img src="imagens/logoPrincipal.png" width=200> </span>
+  </div>
+  <form class="form-signin-problema" method="post">       
+    <h2 class="form-signin-heading">Cadastre seu problema</h2>
+    <div class="form-group">
+      <div class="input-group">
+        <label> Descrição do problema</label><br>
+        <input type="text" class="form-control" name="descricao" id="descricao">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+        <label> Local</label><br>
+        <input type="text"  class="form-control" name="local" id="local">
+        <button class="btn btn-lg btn-rosa btn-block" id="btn-localizacao" type="submit"> Buscar localização</button> 
+      </div>
+    </div>
+
+    <div class="custom-file">
+      <label> Escolher arquivo</label><br>
+      <input type="file" class="custom-file-input" id="customFile" >
+      <label class="custom-file-label" for="customFile"></label>
+    </div>
+    <button class="btn btn-lg btn-rosa btn-block" id="btn-entrar" type="submit"> Cadastrar novo problema</button>   
+  </form>
+</div>
+
+
+<!-- Rodape-->
+<footer class="footer">
+    <div class="container">
+      <span  class="text-muted">Copyright &copy; 2018 - Desenvolvido por Erick França & Talita Costa - Diciplina
+        Desenvolvimento Web - IFSP-Campinas.</span>
+    </div>
+  </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

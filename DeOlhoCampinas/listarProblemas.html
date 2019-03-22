@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Listar Problemas</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  <link href="css/allStyles.css" rel="stylesheet">
+  <link href="css/navigationBar.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+    <div class="container-fluid">
+
+      <!-- header -->
+      <div class="navbar-header">
+
+        <!-- botao toggle -->
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse" data-target="#barra-navegacao">
+        <span class="sr-only">alternar navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="index.html" class="navbar-brand">
+        <span class="img-logo">De Olho Campinas</span>
+      </a>
+
+    </div>
+
+    <!-- navbar -->
+    <div class="collapse navbar-collapse" id="barra-navegacao">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Sobre</a></li>
+        <li class="divisor" role="separator"></li>
+        <li><a href="login.html">Logar</a></li>
+        <li><a href="cadastroLogin.html">Inscrever-se</a></li>
+
+      </ul>
+    </div>
+  
+</nav><!-- /nav -->
+
+
+
+<div class="principal" >
+  <div class="logo" id="formatar">
+    <span> <img src="imagens/logoPrincipal.png" width=200> </span>
+    <h2 >Lista de Problemas</h2>
+  </div>
+ 
+    <div class="table-signin" >
+     <dir class="table-responsive">
+      <table class="table" >
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Descrição do problema</th>
+            <th scope="col">Localização</th>
+            <th scope="col">Foto</th>
+            <th scope="col">Comentario</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Dois buracos grande.</td>
+            <td>Av. Papa João XXIII 49- Jardim Eulina</td>
+            <td><img src="imagens/buraco.jpg"width="120"></td>
+            <td></td>
+            <td>Cadastrado</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Bueiro entopido</td>
+            <td>Rua Orozimbo maia 75 - Cantro  </td>
+            <td><img src="imagens/bueiro.jpg"width="120"></td>
+            <td></td>
+            <td>Cadastrado</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Lixo em terreno abandonado</td>
+            <td>rua brusque 290 - Itajai</td>
+            <td><img src="imagens/lixo.jpg"width="120"></td>
+            <td> </td>
+            <td>Cadastrado</td>
+          </tr>
+        </tbody>
+      </table>
+    </dir>
+    </div>
+</div>
+
+<!-- Rodape-->
+<footer class="footer">
+    <div class="container">
+      <span  class="text-muted">Copyright &copy; 2018 - Desenvolvido por Erick França & Talita Costa - Diciplina
+        Desenvolvimento Web - IFSP-Campinas.</span>
+    </div>
+  </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
